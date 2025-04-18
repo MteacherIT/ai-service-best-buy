@@ -1,12 +1,18 @@
-fastapi==0.111.1
-uvicorn==0.30.3
-pydantic==2.8.2
+
 pytest==8.3.2
 httpx
 pyyaml
-semantic-kernel==0.4.2.dev0
-azure.identity==1.17.1
+
+
 requests==2.32.3
 
-openai==1.37.1
+
 pillow==10.4.0
+
+semantic-kernel==0.3.13.dev0
+openai==0.28.1
+fastapi==0.110.0
+uvicorn==0.29.0
+pydantic==1.10.13
+python-dotenv==1.0.0
+azure-identity==1.15.0

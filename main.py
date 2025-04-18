@@ -13,7 +13,7 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], all
 @app.get("/health", summary="check if server is healthy", operation_id="health")
 async def get_health():
     """
-    Returns status code 200
+    Returns status code 200 
     """
     # Initialize the array with "description"
     capabilities = ["description"]
